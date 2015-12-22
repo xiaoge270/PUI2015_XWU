@@ -1,0 +1,42 @@
+i am confused about your plot, which is not reproducible or documented. your reviewes are ok, but generally a bit superficial
+focusing on a singel issue per plot 9/10
+
+NOTES ON YOUR PLOT
+===============================
+
+3D completely confuses the message. 3D plus obstruction and overlap makes the plot unreadable. 
+
+color unexplained
+
+gender is not a fractional value so all but 0 and 1 tick labels should be removed and 0 and 1 substituted with male and female
+
+class is also integer: one must remove the .5 labels
+
+NOTES ON THE PLOTS YOU REVIEWED
+===============================
+sz
+===
+a meaningful comparison is impossible due to the large difference in the men values. if that was the point then a time series would be unnecessary. if the structure should have been compared then a time series should have been modified by multiplying by an appropriate constant and indicating that in the legend 
+
+small axes labels
+
+the axis labels should be words, not variable names: startdate -> "start date (startdate)"
+
+mu
+==
+
+interesting plot: the choice of plotting with small points allows the structure in the data to be seen
+
+robust to color blindness
+
+the three default dots in the legend should be changed to 1 as they are redudnant
+
+ec
+==
+the 3d obstructs the structure, but the structure is symmetric so this is justified
+
+the color is redundant with the z axis, but it helos read the y value in the 3D structure
+
+the z axis label is ambiguous: spell the function out
+
+the axis labels are too small to be readable
